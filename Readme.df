@@ -1,0 +1,13 @@
+1- please for run first install requirmens library 
+
+2- this app created for gathering news from "https://feeds.npr.org/1004/feed.json" and 
+save news in database and show in views
+
+    1 - news sorted with date published
+    2 - this task run every 5 minutes for gathering new news and save database
+    3 - in this task i use jwt and if you want to show news this you need firs call "http://localhost:8000/api/token/" 
+    in post methods with username:"alimohseni" and password:"123456" and take access token
+    4 - then for show news in you need to use postman app and call "http://localhost:8000/news/"
+    with Authorization access token in headers ----> example: Authorization = Bearer "access token"
+
+if you want to see schedule open the schedule.py file
